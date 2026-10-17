@@ -1,0 +1,493 @@
+{
+  "_comment": "Curated skill taxonomy for JobLens AI. Add skills by appending to 'skills'. 'aliases' are alternative spellings; 'case_sensitive' protects ambiguous names; 'patterns' are extra regexes; 'match_name': false means only aliases/patterns are used for detection (the name is still accepted in user input).",
+  "category_buckets": {
+    "Programming Languages": "Technical Skills",
+    "Data Science / ML": "Technical Skills",
+    "Core CS": "Technical Skills",
+    "Data / BI": "Tools & Technologies",
+    "Web": "Tools & Technologies",
+    "Cloud / DevOps": "Tools & Technologies",
+    "Databases": "Tools & Technologies",
+    "Soft Skills": "Soft Skills"
+  },
+  "skills": [
+    {
+      "name": "Python",
+      "category": "Programming Languages",
+      "aliases": [
+        "python3"
+      ]
+    },
+    {
+      "name": "Java",
+      "category": "Programming Languages",
+      "aliases": []
+    },
+    {
+      "name": "C",
+      "category": "Programming Languages",
+      "aliases": [
+        "C programming",
+        "C language"
+      ],
+      "case_sensitive": true,
+      "match_name": false,
+      "patterns": [
+        "C(?=\\s*(?:,|/|&|\\band\\b|\\bor\\b|\\bprogramming\\b|\\blanguage\\b|\\)|;|\\.?\\s*$))(?!\\s*(?:&|and)\\s*D\\b)"
+      ]
+    },
+    {
+      "name": "C++",
+      "category": "Programming Languages",
+      "aliases": [
+        "cpp"
+      ]
+    },
+    {
+      "name": "C#",
+      "category": "Programming Languages",
+      "aliases": [
+        "csharp"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "category": "Programming Languages",
+      "aliases": [
+        "JS",
+        "ECMAScript"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "category": "Programming Languages",
+      "aliases": []
+    },
+    {
+      "name": "R",
+      "category": "Programming Languages",
+      "aliases": [
+        "R programming",
+        "R language"
+      ],
+      "case_sensitive": true,
+      "match_name": false,
+      "patterns": [
+        "R(?!\\s*(?:&|and)\\s*D\\b)(?=\\s*(?:,|/|&|\\band\\b|\\bor\\b|\\bprogramming\\b|\\blanguage\\b|\\)|;|\\.|$))"
+      ]
+    },
+    {
+      "name": "SQL",
+      "category": "Programming Languages",
+      "aliases": []
+    },
+    {
+      "name": "PHP",
+      "category": "Programming Languages",
+      "aliases": []
+    },
+    {
+      "name": "Kotlin",
+      "category": "Programming Languages",
+      "aliases": []
+    },
+    {
+      "name": "MATLAB",
+      "category": "Programming Languages",
+      "aliases": []
+    },
+    {
+      "name": "Pandas",
+      "category": "Data Science / ML",
+      "aliases": []
+    },
+    {
+      "name": "NumPy",
+      "category": "Data Science / ML",
+      "aliases": []
+    },
+    {
+      "name": "Scikit-learn",
+      "category": "Data Science / ML",
+      "aliases": [
+        "sklearn"
+      ]
+    },
+    {
+      "name": "TensorFlow",
+      "category": "Data Science / ML",
+      "aliases": []
+    },
+    {
+      "name": "PyTorch",
+      "category": "Data Science / ML",
+      "aliases": []
+    },
+    {
+      "name": "Keras",
+      "category": "Data Science / ML",
+      "aliases": []
+    },
+    {
+      "name": "Machine Learning",
+      "category": "Data Science / ML",
+      "aliases": [
+        "ML"
+      ]
+    },
+    {
+      "name": "Deep Learning",
+      "category": "Data Science / ML",
+      "aliases": []
+    },
+    {
+      "name": "NLP",
+      "category": "Data Science / ML",
+      "aliases": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "name": "Computer Vision",
+      "category": "Data Science / ML",
+      "aliases": []
+    },
+    {
+      "name": "Artificial Intelligence",
+      "category": "Data Science / ML",
+      "aliases": [
+        "AI",
+        "artificial intelligence"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "name": "Statistics",
+      "category": "Data Science / ML",
+      "aliases": [
+        "statistical analysis",
+        "statistical modeling"
+      ]
+    },
+    {
+      "name": "Data Analysis",
+      "category": "Data Science / ML",
+      "aliases": []
+    },
+    {
+      "name": "Data Cleaning",
+      "category": "Data Science / ML",
+      "aliases": [
+        "data wrangling",
+        "data preprocessing"
+      ]
+    },
+    {
+      "name": "Matplotlib",
+      "category": "Data Science / ML",
+      "aliases": []
+    },
+    {
+      "name": "Seaborn",
+      "category": "Data Science / ML",
+      "aliases": []
+    },
+    {
+      "name": "Excel",
+      "category": "Data / BI",
+      "aliases": [
+        "MS Excel",
+        "Microsoft Excel",
+        "Advanced Excel"
+      ],
+      "case_sensitive": true,
+      "not_followed_by": "\\s+(?:in|at|as)\\b"
+    },
+    {
+      "name": "Power BI",
+      "category": "Data / BI",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ]
+    },
+    {
+      "name": "Tableau",
+      "category": "Data / BI",
+      "aliases": []
+    },
+    {
+      "name": "Data Visualization",
+      "category": "Data / BI",
+      "aliases": [
+        "data visualisation",
+        "data viz"
+      ]
+    },
+    {
+      "name": "Looker Studio",
+      "category": "Data / BI",
+      "aliases": [
+        "Google Data Studio"
+      ]
+    },
+    {
+      "name": "Google Sheets",
+      "category": "Data / BI",
+      "aliases": []
+    },
+    {
+      "name": "ETL",
+      "category": "Data / BI",
+      "aliases": []
+    },
+    {
+      "name": "HTML",
+      "category": "Web",
+      "aliases": [
+        "HTML5"
+      ]
+    },
+    {
+      "name": "CSS",
+      "category": "Web",
+      "aliases": [
+        "CSS3"
+      ]
+    },
+    {
+      "name": "React",
+      "category": "Web",
+      "aliases": [
+        "React.js",
+        "ReactJS"
+      ]
+    },
+    {
+      "name": "Node.js",
+      "category": "Web",
+      "aliases": [
+        "NodeJS"
+      ]
+    },
+    {
+      "name": "Django",
+      "category": "Web",
+      "aliases": []
+    },
+    {
+      "name": "Flask",
+      "category": "Web",
+      "aliases": []
+    },
+    {
+      "name": "FastAPI",
+      "category": "Web",
+      "aliases": []
+    },
+    {
+      "name": "Angular",
+      "category": "Web",
+      "aliases": []
+    },
+    {
+      "name": "Vue.js",
+      "category": "Web",
+      "aliases": [
+        "Vue"
+      ]
+    },
+    {
+      "name": "Bootstrap",
+      "category": "Web",
+      "aliases": []
+    },
+    {
+      "name": "Spring Boot",
+      "category": "Web",
+      "aliases": [
+        "Springboot"
+      ]
+    },
+    {
+      "name": "REST APIs",
+      "category": "Web",
+      "aliases": [
+        "REST API",
+        "RESTful API",
+        "RESTful APIs",
+        "RESTful"
+      ]
+    },
+    {
+      "name": "AWS",
+      "category": "Cloud / DevOps",
+      "aliases": [
+        "Amazon Web Services"
+      ]
+    },
+    {
+      "name": "Azure",
+      "category": "Cloud / DevOps",
+      "aliases": [
+        "Microsoft Azure"
+      ]
+    },
+    {
+      "name": "GCP",
+      "category": "Cloud / DevOps",
+      "aliases": [
+        "Google Cloud",
+        "Google Cloud Platform"
+      ]
+    },
+    {
+      "name": "Docker",
+      "category": "Cloud / DevOps",
+      "aliases": []
+    },
+    {
+      "name": "Kubernetes",
+      "category": "Cloud / DevOps",
+      "aliases": [
+        "k8s"
+      ]
+    },
+    {
+      "name": "Git",
+      "category": "Cloud / DevOps",
+      "aliases": []
+    },
+    {
+      "name": "GitHub",
+      "category": "Cloud / DevOps",
+      "aliases": []
+    },
+    {
+      "name": "CI/CD",
+      "category": "Cloud / DevOps",
+      "aliases": [
+        "CICD",
+        "continuous integration"
+      ]
+    },
+    {
+      "name": "Linux",
+      "category": "Cloud / DevOps",
+      "aliases": []
+    },
+    {
+      "name": "Jenkins",
+      "category": "Cloud / DevOps",
+      "aliases": []
+    },
+    {
+      "name": "MySQL",
+      "category": "Databases",
+      "aliases": []
+    },
+    {
+      "name": "PostgreSQL",
+      "category": "Databases",
+      "aliases": [
+        "Postgres"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "category": "Databases",
+      "aliases": [
+        "Mongo"
+      ]
+    },
+    {
+      "name": "DBMS",
+      "category": "Databases",
+      "aliases": [
+        "Database Management Systems"
+      ]
+    },
+    {
+      "name": "Data Structures",
+      "category": "Core CS",
+      "aliases": []
+    },
+    {
+      "name": "Algorithms",
+      "category": "Core CS",
+      "aliases": []
+    },
+    {
+      "name": "Object Oriented Programming",
+      "category": "Core CS",
+      "aliases": [
+        "OOP",
+        "OOPs"
+      ]
+    },
+    {
+      "name": "Unit Testing",
+      "category": "Core CS",
+      "aliases": []
+    },
+    {
+      "name": "Agile",
+      "category": "Core CS",
+      "aliases": [
+        "Scrum"
+      ]
+    },
+    {
+      "name": "Communication",
+      "category": "Soft Skills",
+      "aliases": [
+        "communication skills",
+        "verbal communication",
+        "written communication"
+      ]
+    },
+    {
+      "name": "Leadership",
+      "category": "Soft Skills",
+      "aliases": [
+        "leadership skills"
+      ]
+    },
+    {
+      "name": "Teamwork",
+      "category": "Soft Skills",
+      "aliases": [
+        "team work",
+        "team player",
+        "collaboration",
+        "collaborative",
+        "work in a team"
+      ]
+    },
+    {
+      "name": "Problem Solving",
+      "category": "Soft Skills",
+      "aliases": []
+    },
+    {
+      "name": "Time Management",
+      "category": "Soft Skills",
+      "aliases": []
+    },
+    {
+      "name": "Analytical Thinking",
+      "category": "Soft Skills",
+      "aliases": [
+        "analytical skills",
+        "critical thinking"
+      ]
+    },
+    {
+      "name": "Attention to Detail",
+      "category": "Soft Skills",
+      "aliases": [
+        "detail oriented"
+      ]
+    }
+  ]
+}

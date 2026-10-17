@@ -1,0 +1,18 @@
+Software Developer - Entry Level
+
+Responsibilities:
+- Develop and maintain backend services in Java.
+- Write clean, tested code and review pull requests on GitHub.
+- Work with relational databases and write SQL queries.
+- Take part in daily stand-ups with the engineering team.
+
+Requirements:
+- Must have strong knowledge of Java and Object Oriented Programming.
+- Experience with Git version control is mandatory.
+- Working knowledge of SQL.
+- B.Tech / B.E. in Computer Science or Information Technology.
+
+Preferred qualifications:
+- Familiarity with Docker and REST APIs.
+- Exposure to AWS or any other cloud platform.
+- Spring Boot experience is an advantage.

@@ -1,0 +1,22 @@
+Data Analyst (Fresher / 0-1 years)
+
+About the role:
+We are looking for a Data Analyst to turn business data into clear insights for our operations team.
+
+Responsibilities:
+- Clean and analyse datasets using Python and Pandas.
+- Write SQL queries to extract data from our databases.
+- Build dashboards in Power BI and share findings with stakeholders.
+- Present insights to non-technical teammates with strong communication.
+
+Requirements:
+- Bachelor's degree in Computer Science, Mathematics or a related field.
+- Python and SQL are required.
+- Hands-on experience with Excel for reporting.
+- Understanding of data visualization principles.
+- Good problem solving and teamwork skills.
+
+Nice to have:
+- Tableau or Power BI experience.
+- Knowledge of Machine Learning basics.
+- Certification in data analytics is a plus.
